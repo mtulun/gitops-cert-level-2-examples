@@ -5,6 +5,7 @@ metadata:
   generateName: enable-alerts-
   labels:
     codefresh.io/cert: enable-job  
+    argocd.argoproj.io/sync-wave: "30" 
 spec:
   template:
     spec:
